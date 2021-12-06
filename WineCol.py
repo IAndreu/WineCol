@@ -17,4 +17,4 @@ if args.e:
 else:
     encoder = 0
 
-WineCol_model.predict_grape('SNP_GAPS_without_Gret1_400N.fa', 'test.fa', encoder)
+WineCol_model.predict_grape(train, test, encoder)
