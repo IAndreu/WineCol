@@ -2,8 +2,8 @@ import os
 import sys
 
 
-PATH_TO_GenomeAnalysisTK = "/home/ignasi/Desktop/grape/GenomeAnalysisTK.jar"
-PATH_TO_impute2 = "/home/ignasi/Desktop/grape/impute_v2.3.2_x86_64_dynamic/impute2"
+PATH_TO_GenomeAnalysisTK = ""
+PATH_TO_impute2 = ""
 GENOME="Data/genome/grape12Xv2.fa"
 
 
