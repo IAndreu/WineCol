@@ -9,7 +9,7 @@ This tool takes as input an ancient gene VvmybA1, a transcriptional regulator of
 2. Installation
 3. Usage    
 4. Example
-
+5. Upcoming changes
 
 ### 1. Prerequisites
 
@@ -45,8 +45,11 @@ optional arguments:
   ```
 If imputation is requiered, download all the files starting with "grape12Xv2" from https://sid.erda.dk/sharelink/hSM6HJzoha and place the files in the "Data/" folder. Also, specify the paths for GenomeAnalysisTK and impute2 in the file WineCol_imputation.py.
 
-Run example:
+### 4.Example:
 
 ```
 python3 WineCol.py Data/MDV14_US13525_P7.fa
 ``` 
+### 5. Upcoming changes:
+
+Improve the imputation method (currently using default impute2 parameters designed for genomes or chromosomes).
