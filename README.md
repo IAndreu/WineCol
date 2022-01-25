@@ -39,7 +39,8 @@ positional arguments:
 
 optional arguments:
   -h, --help      show this help message and exit
-  -train TRAIN    Fasta file consisting of a multiple sequence alignment of the myAb1 genes used to train the model. Default is the one in the 'data/' folder.
+  -train TRAIN    Fasta file consisting of a multiple sequence alignment of the myAb1 genes used 
+                  to train the model. Default is the one in the 'data/' folder.
   -gret1 {0,1}    Presence of Gret1 retrotransposon (0:No, 1:Yes).
   -impute IMPUTE  Perform imputation of the input data. PATH to BAM file of the ancient sequence.
   ```
